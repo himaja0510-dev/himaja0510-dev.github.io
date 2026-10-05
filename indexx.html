@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Himaja G | Computer Science Student</title>
+<style>
+:root{--bg:#f7f5f0;--surface:#fffdf8;--text:#242424;--muted:#686868;--accent:#6b5b45;--line:#ddd7cc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}
+.container{width:min(1080px,90%);margin:auto}header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:700;letter-spacing:.04em}
+nav ul{list-style:none;display:flex;gap:20px;padding:0;margin:0;flex-wrap:wrap}nav a{font-size:.9rem;color:var(--muted)}
+section{padding:72px 0}.hero{min-height:78vh;display:grid;align-items:center;border-bottom:1px solid var(--line)}
+.eyebrow,.section-number,.contact-label{color:var(--accent);font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+h1{font-size:clamp(3.2rem,8vw,6.5rem);line-height:.95;letter-spacing:-.06em;margin:18px 0 24px}
+.hero p,.intro{max-width:760px;color:var(--muted);font-size:1.06rem}.meta,.links,.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.tag,.skill{border:1px solid var(--line);background:var(--surface);padding:8px 12px;font-size:.86rem}
+.button{display:inline-block;border:1px solid var(--text);background:var(--text);color:#fff;padding:10px 16px;font-size:.9rem}
+.button.secondary{background:transparent;color:var(--text);border-color:var(--line)}
+.section-heading{margin-bottom:30px}.section-heading h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;margin:8px 0;letter-spacing:-.035em}
+.activity-grid,.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{border:1px solid var(--line);background:var(--surface);padding:26px}.card h3{margin:0 0 10px}.card p{color:var(--muted);margin:0}.card ul{color:var(--muted);margin:12px 0 0;padding-left:20px}
+.project-card{display:flex;flex-direction:column;min-height:205px}.project-link{margin-top:auto;padding-top:20px;color:var(--accent);font-weight:700}.project-link:hover{text-decoration:underline}
+.goal{border-left:3px solid var(--accent);padding-left:22px;max-width:820px;color:var(--muted);font-size:1.06rem}
+.contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.contact-item{border-top:1px solid var(--line);padding-top:16px}.contact-value{margin-top:5px}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.85rem}
+@media(max-width:700px){nav{padding:14px 0;align-items:flex-start;flex-direction:column}section{padding:54px 0}.hero{min-height:auto;padding:85px 0}.activity-grid,.project-grid,.contact-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="container"><nav>
+<a class="brand" href="#home">HIMAJA G</a>
+<ul><li><a href="#about">About</a></li><li><a href="#activities">Activities</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav></div></header>
+
+<main>
+<section class="hero" id="home"><div class="container">
+<div class="eyebrow">Computer Science &amp; Engineering · REVA University</div>
+<h1>Himaja G</h1>
+<p>A 3rd-semester Computer Science and Engineering student interested in programming, software development, problem solving, and practical technology projects.</p>
+<div class="meta"><span class="tag">B.Tech CSE</span><span class="tag">3rd Semester</span><span class="tag">Expected Graduation: 2029</span><span class="tag">Bengaluru, India</span></div>
+<div class="links"><a class="button" href="https://github.com/himaja0510-dev" target="_blank" rel="noopener noreferrer">GitHub</a><a class="button secondary" href="https://www.linkedin.com/in/himajag" target="_blank" rel="noopener noreferrer">LinkedIn</a><a class="button secondary" href="mailto:himaja0510@gmail.com">Email</a></div>
+</div></section>
+
+<section id="about"><div class="container"><div class="section-heading"><div class="section-number">01 · ABOUT</div><h2>Learning by building.</h2></div>
+<p class="intro">I am a 3rd-semester Computer Science and Engineering student at REVA University. I am interested in programming, software development, problem solving, and practical technology projects. I enjoy learning through hands-on activities, coding practice, and collaborative development. Through my portfolio-building activities, I have been developing my skills in programming, Git, GitHub, VS Code, and problem solving.</p>
+</div></section>
+
+<section id="activities"><div class="container"><div class="section-heading"><div class="section-number">02 · ACTIVITIES 1–4</div><h2>Portfolio-building work.</h2></div>
+<div class="activity-grid">
+<article class="card"><h3>Activity 1 — Development Environment</h3><ul><li>Set up VS Code with the Microsoft C/C++ extension.</li><li>Verified GCC and created, compiled, and ran <code>hello.c</code>.</li><li>Learned the basic write, compile, and run workflow.</li></ul></article>
+<article class="card"><h3>Activity 2 — Git &amp; GitHub</h3><ul><li>Created and worked with a public GitHub repository and README.</li><li>Practiced cloning, commits, <code>git status</code>, and pushing changes.</li><li>Used VS Code Source Control with GitHub.</li></ul></article>
+<article class="card"><h3>Activity 3 — GitLens &amp; Live Share</h3><ul><li>Explored commits, branches, file history, and repository changes.</li><li>Used GitHub Live Share for pair programming.</li><li>Added a <code>greet()</code> function to the C project.</li></ul></article>
+<article class="card"><h3>Activity 4 — LeetCode Practice</h3><ul><li>Built a C-focused LeetCode solutions repository.</li><li>Organized solutions by problem categories with documentation and screenshots.</li><li>Completed 8 problems, including arrays, strings, algorithms, and stacks.</li></ul></article>
+</div></div></section>
+
+<section id="projects"><div class="container"><div class="section-heading"><div class="section-number">03 · PROJECTS</div><h2>Technical proof.</h2></div>
+<div class="project-grid">
+<article class="card project-card"><h3>Hello World C</h3><p>A C programming project used while learning the development, compilation, execution, and Git/GitHub workflow.</p>
+<a class="project-link" href="https://github.com/himaja0510-dev/hello-world-c" target="_blank" rel="noopener noreferrer">View Hello World C repository →</a></article>
+<article class="card project-card"><h3>LeetCode Solutions</h3><p>A GitHub repository containing documented C solutions and screenshots for completed LeetCode practice problems.</p>
+<a class="project-link" href="https://github.com/himaja0510-dev/leetcode-solutions" target="_blank" rel="noopener noreferrer">View LeetCode Solutions repository →</a></article>
+</div></div></section>
+
+<section id="skills"><div class="container"><div class="section-heading"><div class="section-number">04 · SKILLS</div><h2>Current toolkit.</h2></div>
+<div class="skills"><span class="skill">C</span><span class="skill">C++</span><span class="skill">Java</span><span class="skill">Python</span><span class="skill">JavaScript</span><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">MySQL</span><span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">VS Code</span></div>
+</div></section>
+
+<section><div class="container"><div class="section-heading"><div class="section-number">05 · EDUCATION</div><h2>REVA University.</h2></div>
+<div class="card"><h3>B.Tech in Computer Science and Engineering</h3><p>REVA University · Bengaluru, India · Expected graduation: 2029</p></div></div></section>
+
+<section><div class="container"><div class="section-heading"><div class="section-number">06 · LEARNING GOAL</div><h2>What comes next.</h2></div>
+<p class="goal">My goal is to strengthen my programming and problem-solving skills, build practical software projects, and gain experience with software development, collaborative tools, and real-world technology projects throughout my degree.</p></div></section>
+
+<section id="contact"><div class="container"><div class="section-heading"><div class="section-number">07 · CONTACT</div><h2>Let's connect.</h2></div>
+<div class="contact-grid">
+<div class="contact-item"><div class="contact-label">Email</div><div class="contact-value"><a href="mailto:himaja0510@gmail.com">himaja0510@gmail.com</a></div></div>
+<div class="contact-item"><div class="contact-label">GitHub</div><div class="contact-value"><a href="https://github.com/himaja0510-dev" target="_blank" rel="noopener noreferrer">github.com/himaja0510-dev</a></div></div>
+<div class="contact-item"><div class="contact-label">LinkedIn</div><div class="contact-value"><a href="https://www.linkedin.com/in/himajag" target="_blank" rel="noopener noreferrer">linkedin.com/in/himajag</a></div></div>
+<div class="contact-item"><div class="contact-label">Location</div><div class="contact-value">Bengaluru, India</div></div>
+</div></div></section>
+</main>
+<footer><div class="container">© 2026 Himaja G · Computer Science and Engineering · REVA University</div></footer>
+</body>
+</html>
